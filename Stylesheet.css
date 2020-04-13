@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.container {
+    text-align: center;
+}
+/*Styling for the button*/
+#hex-btn {
+    padding: 5% 10%;
+    border: 3px solid white;
+    border-radius: 7px;
+    color: #fefefe;
+    background: rgba(0,0,0, 0.6);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.hexColor{
+    text-transform: capitalize;
+}
+.hex {
+    font-size: 3rem;
+}
+.hex-btn:hover {
+    background: rgb(0,0,0);
+}
